@@ -14,6 +14,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: trizennith/metrics-exp@main
+      - uses: trizennith/metrics-exp@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
